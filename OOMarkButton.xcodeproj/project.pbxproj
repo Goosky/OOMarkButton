@@ -19,6 +19,16 @@
 		002DB530192C3BDC00021EBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002DB518192C3BDC00021EBE /* UIKit.framework */; };
 		002DB538192C3BDC00021EBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 002DB536192C3BDC00021EBE /* InfoPlist.strings */; };
 		002DB53A192C3BDC00021EBE /* OOMarkButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 002DB539192C3BDC00021EBE /* OOMarkButtonTests.m */; };
+		002DB546192C3D8B00021EBE /* OOMarkButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 002DB545192C3D8B00021EBE /* OOMarkButton.m */; };
+		002DB549192C418100021EBE /* OOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 002DB548192C418100021EBE /* OOViewController.m */; };
+		002DB568192C4C7A00021EBE /* checkradio_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 002DB560192C4C7A00021EBE /* checkradio_icon.png */; };
+		002DB569192C4C7A00021EBE /* checkradio_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002DB561192C4C7A00021EBE /* checkradio_icon@2x.png */; };
+		002DB56A192C4C7A00021EBE /* checkbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 002DB562192C4C7A00021EBE /* checkbox_checked.png */; };
+		002DB56B192C4C7A00021EBE /* checkbox_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002DB563192C4C7A00021EBE /* checkbox_checked@2x.png */; };
+		002DB56C192C4C7A00021EBE /* checkbox_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 002DB564192C4C7A00021EBE /* checkbox_unchecked.png */; };
+		002DB56D192C4C7A00021EBE /* checkbox_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002DB565192C4C7A00021EBE /* checkbox_unchecked@2x.png */; };
+		002DB56E192C4C7A00021EBE /* uncheckradio_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 002DB566192C4C7A00021EBE /* uncheckradio_icon.png */; };
+		002DB56F192C4C7A00021EBE /* uncheckradio_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 002DB567192C4C7A00021EBE /* uncheckradio_icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,19 @@
 		002DB535192C3BDC00021EBE /* OOMarkButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OOMarkButtonTests-Info.plist"; sourceTree = "<group>"; };
 		002DB537192C3BDC00021EBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		002DB539192C3BDC00021EBE /* OOMarkButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOMarkButtonTests.m; sourceTree = "<group>"; };
+		002DB544192C3D8B00021EBE /* OOMarkButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOMarkButton.h; sourceTree = "<group>"; };
+		002DB545192C3D8B00021EBE /* OOMarkButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OOMarkButton.m; sourceTree = "<group>"; };
+		002DB547192C418100021EBE /* OOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OOViewController.h; sourceTree = "<group>"; };
+		002DB548192C418100021EBE /* OOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OOViewController.m; sourceTree = "<group>"; };
+		002DB551192C4A2500021EBE /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		002DB560192C4C7A00021EBE /* checkradio_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkradio_icon.png; sourceTree = "<group>"; };
+		002DB561192C4C7A00021EBE /* checkradio_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkradio_icon@2x.png"; sourceTree = "<group>"; };
+		002DB562192C4C7A00021EBE /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked.png; sourceTree = "<group>"; };
+		002DB563192C4C7A00021EBE /* checkbox_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_checked@2x.png"; sourceTree = "<group>"; };
+		002DB564192C4C7A00021EBE /* checkbox_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_unchecked.png; sourceTree = "<group>"; };
+		002DB565192C4C7A00021EBE /* checkbox_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkbox_unchecked@2x.png"; sourceTree = "<group>"; };
+		002DB566192C4C7A00021EBE /* uncheckradio_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheckradio_icon.png; sourceTree = "<group>"; };
+		002DB567192C4C7A00021EBE /* uncheckradio_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uncheckradio_icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +123,7 @@
 				002DB516192C3BDC00021EBE /* CoreGraphics.framework */,
 				002DB518192C3BDC00021EBE /* UIKit.framework */,
 				002DB52D192C3BDC00021EBE /* XCTest.framework */,
+				002DB551192C4A2500021EBE /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,10 +131,13 @@
 		002DB51A192C3BDC00021EBE /* OOMarkButton */ = {
 			isa = PBXGroup;
 			children = (
+				002DB543192C3D6C00021EBE /* OOMarkButton */,
 				002DB523192C3BDC00021EBE /* OOAppDelegate.h */,
 				002DB524192C3BDC00021EBE /* OOAppDelegate.m */,
 				002DB526192C3BDC00021EBE /* Images.xcassets */,
 				002DB51B192C3BDC00021EBE /* Supporting Files */,
+				002DB547192C418100021EBE /* OOViewController.h */,
+				002DB548192C418100021EBE /* OOViewController.m */,
 			);
 			path = OOMarkButton;
 			sourceTree = "<group>";
@@ -142,6 +169,31 @@
 				002DB536192C3BDC00021EBE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		002DB543192C3D6C00021EBE /* OOMarkButton */ = {
+			isa = PBXGroup;
+			children = (
+				002DB55F192C4C7A00021EBE /* images */,
+				002DB544192C3D8B00021EBE /* OOMarkButton.h */,
+				002DB545192C3D8B00021EBE /* OOMarkButton.m */,
+			);
+			path = OOMarkButton;
+			sourceTree = "<group>";
+		};
+		002DB55F192C4C7A00021EBE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				002DB560192C4C7A00021EBE /* checkradio_icon.png */,
+				002DB561192C4C7A00021EBE /* checkradio_icon@2x.png */,
+				002DB566192C4C7A00021EBE /* uncheckradio_icon.png */,
+				002DB567192C4C7A00021EBE /* uncheckradio_icon@2x.png */,
+				002DB562192C4C7A00021EBE /* checkbox_checked.png */,
+				002DB563192C4C7A00021EBE /* checkbox_checked@2x.png */,
+				002DB564192C4C7A00021EBE /* checkbox_unchecked.png */,
+				002DB565192C4C7A00021EBE /* checkbox_unchecked@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +272,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002DB56D192C4C7A00021EBE /* checkbox_unchecked@2x.png in Resources */,
+				002DB569192C4C7A00021EBE /* checkradio_icon@2x.png in Resources */,
 				002DB51F192C3BDC00021EBE /* InfoPlist.strings in Resources */,
 				002DB527192C3BDC00021EBE /* Images.xcassets in Resources */,
+				002DB56E192C4C7A00021EBE /* uncheckradio_icon.png in Resources */,
+				002DB56A192C4C7A00021EBE /* checkbox_checked.png in Resources */,
+				002DB568192C4C7A00021EBE /* checkradio_icon.png in Resources */,
+				002DB56F192C4C7A00021EBE /* uncheckradio_icon@2x.png in Resources */,
+				002DB56C192C4C7A00021EBE /* checkbox_unchecked.png in Resources */,
+				002DB56B192C4C7A00021EBE /* checkbox_checked@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +301,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				002DB525192C3BDC00021EBE /* OOAppDelegate.m in Sources */,
+				002DB546192C3D8B00021EBE /* OOMarkButton.m in Sources */,
+				002DB549192C418100021EBE /* OOViewController.m in Sources */,
 				002DB521192C3BDC00021EBE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -363,6 +425,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OOMarkButton/OOMarkButton-Prefix.pch";
 				INFOPLIST_FILE = "OOMarkButton/OOMarkButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -376,6 +439,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OOMarkButton/OOMarkButton-Prefix.pch";
 				INFOPLIST_FILE = "OOMarkButton/OOMarkButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002DB515192C3BDC00021EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002DB514192C3BDC00021EBE /* Foundation.framework */; };
+		002DB517192C3BDC00021EBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002DB516192C3BDC00021EBE /* CoreGraphics.framework */; };
+		002DB519192C3BDC00021EBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002DB518192C3BDC00021EBE /* UIKit.framework */; };
+		002DB51F192C3BDC00021EBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 002DB51D192C3BDC00021EBE /* InfoPlist.strings */; };
+		002DB521192C3BDC00021EBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 002DB520192C3BDC00021EBE /* main.m */; };
+		002DB525192C3BDC00021EBE /* OOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 002DB524192C3BDC00021EBE /* OOAppDelegate.m */; };
+		002DB527192C3BDC00021EBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002DB526192C3BDC00021EBE /* Images.xcassets */; };
+		002DB52E192C3BDC00021EBE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002DB52D192C3BDC00021EBE /* XCTest.framework */; };
+		002DB52F192C3BDC00021EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002DB514192C3BDC00021EBE /* Foundation.framework */; };
+		002DB530192C3BDC00021EBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002DB518192C3BDC00021EBE /* UIKit.framework */; };
+		002DB538192C3BDC00021EBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 002DB536192C3BDC00021EBE /* InfoPlist.strings */; };
+		002DB53A192C3BDC00021EBE /* OOMarkButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 002DB539192C3BDC00021EBE /* OOMarkButtonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002DB531192C3BDC00021EBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002DB509192C3BDC00021EBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002DB510192C3BDC00021EBE;
+			remoteInfo = OOMarkButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002DB511192C3BDC00021EBE /* OOMarkButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OOMarkButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		002DB514192C3BDC00021EBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		002DB516192C3BDC00021EBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		002DB518192C3BDC00021EBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		002DB51C192C3BDC00021EBE /* OOMarkButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OOMarkButton-Info.plist"; sourceTree = "<group>"; };
+		002DB51E192C3BDC00021EBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		002DB520192C3BDC00021EBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		002DB522192C3BDC00021EBE /* OOMarkButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OOMarkButton-Prefix.pch"; sourceTree = "<group>"; };
+		002DB523192C3BDC00021EBE /* OOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OOAppDelegate.h; sourceTree = "<group>"; };
+		002DB524192C3BDC00021EBE /* OOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOAppDelegate.m; sourceTree = "<group>"; };
+		002DB526192C3BDC00021EBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		002DB52C192C3BDC00021EBE /* OOMarkButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OOMarkButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		002DB52D192C3BDC00021EBE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		002DB535192C3BDC00021EBE /* OOMarkButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OOMarkButtonTests-Info.plist"; sourceTree = "<group>"; };
+		002DB537192C3BDC00021EBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		002DB539192C3BDC00021EBE /* OOMarkButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOMarkButtonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002DB50E192C3BDC00021EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002DB517192C3BDC00021EBE /* CoreGraphics.framework in Frameworks */,
+				002DB519192C3BDC00021EBE /* UIKit.framework in Frameworks */,
+				002DB515192C3BDC00021EBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002DB529192C3BDC00021EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002DB52E192C3BDC00021EBE /* XCTest.framework in Frameworks */,
+				002DB530192C3BDC00021EBE /* UIKit.framework in Frameworks */,
+				002DB52F192C3BDC00021EBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002DB508192C3BDC00021EBE = {
+			isa = PBXGroup;
+			children = (
+				002DB51A192C3BDC00021EBE /* OOMarkButton */,
+				002DB533192C3BDC00021EBE /* OOMarkButtonTests */,
+				002DB513192C3BDC00021EBE /* Frameworks */,
+				002DB512192C3BDC00021EBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		002DB512192C3BDC00021EBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002DB511192C3BDC00021EBE /* OOMarkButton.app */,
+				002DB52C192C3BDC00021EBE /* OOMarkButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		002DB513192C3BDC00021EBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				002DB514192C3BDC00021EBE /* Foundation.framework */,
+				002DB516192C3BDC00021EBE /* CoreGraphics.framework */,
+				002DB518192C3BDC00021EBE /* UIKit.framework */,
+				002DB52D192C3BDC00021EBE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		002DB51A192C3BDC00021EBE /* OOMarkButton */ = {
+			isa = PBXGroup;
+			children = (
+				002DB523192C3BDC00021EBE /* OOAppDelegate.h */,
+				002DB524192C3BDC00021EBE /* OOAppDelegate.m */,
+				002DB526192C3BDC00021EBE /* Images.xcassets */,
+				002DB51B192C3BDC00021EBE /* Supporting Files */,
+			);
+			path = OOMarkButton;
+			sourceTree = "<group>";
+		};
+		002DB51B192C3BDC00021EBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				002DB51C192C3BDC00021EBE /* OOMarkButton-Info.plist */,
+				002DB51D192C3BDC00021EBE /* InfoPlist.strings */,
+				002DB520192C3BDC00021EBE /* main.m */,
+				002DB522192C3BDC00021EBE /* OOMarkButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		002DB533192C3BDC00021EBE /* OOMarkButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				002DB539192C3BDC00021EBE /* OOMarkButtonTests.m */,
+				002DB534192C3BDC00021EBE /* Supporting Files */,
+			);
+			path = OOMarkButtonTests;
+			sourceTree = "<group>";
+		};
+		002DB534192C3BDC00021EBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				002DB535192C3BDC00021EBE /* OOMarkButtonTests-Info.plist */,
+				002DB536192C3BDC00021EBE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		002DB510192C3BDC00021EBE /* OOMarkButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002DB53D192C3BDC00021EBE /* Build configuration list for PBXNativeTarget "OOMarkButton" */;
+			buildPhases = (
+				002DB50D192C3BDC00021EBE /* Sources */,
+				002DB50E192C3BDC00021EBE /* Frameworks */,
+				002DB50F192C3BDC00021EBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OOMarkButton;
+			productName = OOMarkButton;
+			productReference = 002DB511192C3BDC00021EBE /* OOMarkButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		002DB52B192C3BDC00021EBE /* OOMarkButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002DB540192C3BDC00021EBE /* Build configuration list for PBXNativeTarget "OOMarkButtonTests" */;
+			buildPhases = (
+				002DB528192C3BDC00021EBE /* Sources */,
+				002DB529192C3BDC00021EBE /* Frameworks */,
+				002DB52A192C3BDC00021EBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002DB532192C3BDC00021EBE /* PBXTargetDependency */,
+			);
+			name = OOMarkButtonTests;
+			productName = OOMarkButtonTests;
+			productReference = 002DB52C192C3BDC00021EBE /* OOMarkButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002DB509192C3BDC00021EBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "OpeningO,Inc ( http://openingo.github.io/ http://zhucongqi.cn/ )";
+				TargetAttributes = {
+					002DB52B192C3BDC00021EBE = {
+						TestTargetID = 002DB510192C3BDC00021EBE;
+					};
+				};
+			};
+			buildConfigurationList = 002DB50C192C3BDC00021EBE /* Build configuration list for PBXProject "OOMarkButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 002DB508192C3BDC00021EBE;
+			productRefGroup = 002DB512192C3BDC00021EBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002DB510192C3BDC00021EBE /* OOMarkButton */,
+				002DB52B192C3BDC00021EBE /* OOMarkButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		002DB50F192C3BDC00021EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002DB51F192C3BDC00021EBE /* InfoPlist.strings in Resources */,
+				002DB527192C3BDC00021EBE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002DB52A192C3BDC00021EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002DB538192C3BDC00021EBE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002DB50D192C3BDC00021EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002DB525192C3BDC00021EBE /* OOAppDelegate.m in Sources */,
+				002DB521192C3BDC00021EBE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002DB528192C3BDC00021EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002DB53A192C3BDC00021EBE /* OOMarkButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002DB532192C3BDC00021EBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002DB510192C3BDC00021EBE /* OOMarkButton */;
+			targetProxy = 002DB531192C3BDC00021EBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		002DB51D192C3BDC00021EBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002DB51E192C3BDC00021EBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		002DB536192C3BDC00021EBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002DB537192C3BDC00021EBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		002DB53B192C3BDC00021EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		002DB53C192C3BDC00021EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		002DB53E192C3BDC00021EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OOMarkButton/OOMarkButton-Prefix.pch";
+				INFOPLIST_FILE = "OOMarkButton/OOMarkButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		002DB53F192C3BDC00021EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OOMarkButton/OOMarkButton-Prefix.pch";
+				INFOPLIST_FILE = "OOMarkButton/OOMarkButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		002DB541192C3BDC00021EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OOMarkButton.app/OOMarkButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OOMarkButton/OOMarkButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OOMarkButtonTests/OOMarkButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		002DB542192C3BDC00021EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OOMarkButton.app/OOMarkButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OOMarkButton/OOMarkButton-Prefix.pch";
+				INFOPLIST_FILE = "OOMarkButtonTests/OOMarkButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002DB50C192C3BDC00021EBE /* Build configuration list for PBXProject "OOMarkButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002DB53B192C3BDC00021EBE /* Debug */,
+				002DB53C192C3BDC00021EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002DB53D192C3BDC00021EBE /* Build configuration list for PBXNativeTarget "OOMarkButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002DB53E192C3BDC00021EBE /* Debug */,
+				002DB53F192C3BDC00021EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		002DB540192C3BDC00021EBE /* Build configuration list for PBXNativeTarget "OOMarkButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002DB541192C3BDC00021EBE /* Debug */,
+				002DB542192C3BDC00021EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002DB509192C3BDC00021EBE /* Project object */;
+}

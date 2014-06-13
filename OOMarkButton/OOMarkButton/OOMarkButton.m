@@ -101,7 +101,8 @@
     }
     
     if (o.type == self.type
-        && o.groupId == self.groupId) {
+        && o.groupId == self.groupId
+        && ![o isEqual:self]) {
         self.selected = NO;
     }
     
